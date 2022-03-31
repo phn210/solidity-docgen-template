@@ -1,6 +1,6 @@
 # solidity-docgen-template
 
-`Templates for Solidity smart contracts documetation generator`
+<p>Templates for Solidity smart contracts documetation generator</p>
 
 ## Dependencies
 
