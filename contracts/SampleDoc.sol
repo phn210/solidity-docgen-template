@@ -2,7 +2,7 @@
 pragma solidity>=0.8.0;
 
 /**
-* @notice General information about the contract. This contract present a proper way to comment code for documetation generator templates' compatibility.
+* @notice General information about the contract. This contract present a proper way to comment code for documetation generator templates' compatibility. Note: Order of parameters & return values must match comments' order.
 */
 contract SampleDoc {
 
