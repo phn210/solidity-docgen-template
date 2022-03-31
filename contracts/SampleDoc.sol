@@ -12,11 +12,14 @@ contract SampleDoc {
     * @notice This event is emitted when...
     * @param param event's param
     */
+    // Additional comments (not-included in gen-docs)
+
     event EventEmitted(uint256 param);
 
 
     /* ========== DATA STRUCTURES ========== */
 
+    // Additional comments (not-included in gen-docs)
     struct Struct {
         uint256 mem1;
         uint256 mem2;
@@ -35,6 +38,8 @@ contract SampleDoc {
     * @notice This modifier require governor authority
     * @dev Dev's note
     */
+    // Additional comments (not-included in gen-docs)
+
     modifier onlyAuthority() {
         require (msg.sender == authority);
         _;
@@ -51,6 +56,8 @@ contract SampleDoc {
      * @return newValue value is ...
      * @return newAddress address is
      */
+    // Additional comments (not-included in gen-docs)
+
     function firstFunction(address _from, uint _amount) external view returns (uint256, address) {
         address newAddress = _from;
         uint256 newValue = _amount;
@@ -63,6 +70,8 @@ contract SampleDoc {
      * @param _map Map param's description
      * @return Return value is...
      */
+    // Additional comments (not-included in gen-docs)
+    
     function secondFunction(uint _value, mapping(uint => address) storage _map) internal onlyAuthority returns (bool) {
         _map[0] = authority;
         if (_value < 0) return false;
