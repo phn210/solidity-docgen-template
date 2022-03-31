@@ -52,7 +52,6 @@ Dev's note
     uint256 _amount
   ) external returns (uint256, address)
 ```
-`List outputs:`
 
 #### Parameters list:
 
@@ -82,7 +81,6 @@ Dev's note
     mapping(uint256 => address) _map
   ) internal returns (bool)
 ```
-`List outputs:`
 
 #### Parameters list:
 
