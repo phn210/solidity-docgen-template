@@ -2,13 +2,13 @@
 [SampleDoc-onlyAuthority--]: #SampleDoc-onlyAuthority--
 [SampleDoc-authority-address]: #SampleDoc-authority-address
 [SampleDoc-map-mapping-uint256----address-]: #SampleDoc-map-mapping-uint256----address-
-[SampleDoc-firstFunction-address-bool-]: #SampleDoc-firstFunction-address-bool-
+[SampleDoc-firstFunction-address-uint256-]: #SampleDoc-firstFunction-address-uint256-
 [SampleDoc-secondFunction-uint256-mapping-uint256----address--]: #SampleDoc-secondFunction-uint256-mapping-uint256----address--
 [SampleDoc-EventEmitted-uint256-]: #SampleDoc-EventEmitted-uint256-
 [SampleDoc-Struct]: #SampleDoc-Struct
 # `SampleDoc`
 
-General information about the contract. This contract present a proper way to comment code for documetation generator templates' compatibility.
+General information about the contract. This contract present a proper way to comment code for documetation generator templates' compatibility. Note: Order of parameters & return values must match comments' order.
 
 ---
 ## Structs
@@ -42,15 +42,15 @@ This modifier require governor authority
 ```solidity
   firstFunction(
     address _from,
-    bool _amount
-  ) external returns (address, bool)
+    uint256 _amount
+  ) external returns (uint256, address)
 ```
 #### Parameters list:
 
 | Name | Type | Description                                                          |
 | :--- | :--- | :------------------------------------------------------------------- |
 |`_from` | address | From param's description
-|`_amount` | bool | Amount param's description
+|`_amount` | uint256 | Amount param's description
 
 
 
@@ -58,8 +58,8 @@ This modifier require governor authority
 #### Return values:
 | Name                           | Type          | Description                                                                  |
 | :----------------------------- | :------------ | :--------------------------------------------------------------------------- |
+|`Value`| uint256 | return value is ...
 |`Address`| address | return address is ...
-|`Value`| bool | return value is ...
 
 
 ---
