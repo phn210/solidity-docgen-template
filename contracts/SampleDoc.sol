@@ -53,25 +53,25 @@ contract SampleDoc {
      * @dev Considering to adjust... (dev's note)
      * @param _from From param's description
      * @param _amount Amount param's description
-     * @return newValue value is ...
-     * @return newAddress address is
+     * @return Value return value is ...
+     * @return Address return address is ...
      */
     // Additional comments (not-included in gen-docs)
 
-    function firstFunction(address _from, uint _amount) external view returns (uint256, address) {
+    function firstFunction(address _from, uint _amount) external view returns (uint, address) {
         address newAddress = _from;
-        uint256 newValue = _amount;
+        uint newValue = _amount;
         return (newValue, newAddress);
-    }
+    }    
 
     /**
      * @notice This function is used for...
      * @param _value Value param's description
      * @param _map Map param's description
-     * @return Return value is...
+     * @return Return return value is...
      */
     // Additional comments (not-included in gen-docs)
-    
+
     function secondFunction(uint _value, mapping(uint => address) storage _map) internal onlyAuthority returns (bool) {
         _map[0] = authority;
         if (_value < 0) return false;
