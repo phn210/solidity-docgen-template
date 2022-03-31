@@ -2,7 +2,7 @@
 pragma solidity>=0.8.0;
 
 /**
-* @notice General information about the contract
+* @notice General information about the contract. This contract present a proper way to comment code for documetation generator templates' compatibility.
 */
 contract SampleDoc {
 
@@ -33,7 +33,7 @@ contract SampleDoc {
     
     /**
     * @notice This modifier require governor authority
-    * @dev Dev's Note
+    * @dev Dev's note
     */
     modifier onlyAuthority() {
         require (msg.sender == authority);
@@ -45,6 +45,7 @@ contract SampleDoc {
 
     /**
      * @notice This function indicates...
+     * @dev Considering to adjust... (dev's note)
      * @param _from From param's description
      * @param _amount Amount param's description
      * @return newValue value is ...
