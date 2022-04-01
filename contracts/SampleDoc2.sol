@@ -1,10 +1,12 @@
 // SPDX-License-Identifier: AGPL-3.0-or-later
 pragma solidity>=0.8.0;
 
+import './Doc.sol';
+
 /**
 * @notice General information about the contract. This contract present a proper way to comment code for documetation generator templates' compatibility. Note: Order of parameters & return values must match comments' order.
 */
-contract SampleDoc {
+contract SampleDoc2 is Doc {
 
     /* ========== EVENTS ========== */
     

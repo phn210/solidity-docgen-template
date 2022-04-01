@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "hardhat": "^2.9.2",
+    "sol2uml": "^1.1.29",
     "solidity-docgen": "^0.5.16"
   },
   "devDependencies": {
