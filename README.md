@@ -5,8 +5,13 @@
 ## `Dependencies`
 
 <a href='https://github.com/OpenZeppelin/solidity-docgen' target=_blank>solidity-docgen</a>
-<br>
+```
+npm install solidity-docgen@0.5.16
+npm install -D solc-0.8@npm:solc@^0.8.0
+```
+
 <a href='https://github.com/naddison36/sol2uml' target=_blank>sol2uml</a>
+
 
 ## `Commands`
 
